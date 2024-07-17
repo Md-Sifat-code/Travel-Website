@@ -1,0 +1,432 @@
+/* Font Style */
+.mulish {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+/* Default-styles */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    width: 90%;
+    margin: 5.5rem;
+}
+/* Nav-bar styles */
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.logo>h3{
+    font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+span{
+    color: rgb(255, 84, 0);
+}
+.nav-options{
+    width: 40%;
+}
+.nav-options>ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+
+
+}
+.nav-options>ul>li{
+    color: rgb(66, 66, 71);
+font-family: Mulish;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+#option1{
+    color: rgb(255, 84, 0);
+
+}
+/* Hero Section Styles */
+.Hero{
+    width: 90%;
+    margin: 5.5rem;
+    border-radius: 1rem;
+    background: linear-gradient(rgba(19, 19, 24, 0.8),
+    rgba(19, 19, 24, 0)),url(../Images/bero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4rem;
+}
+.discription>h3{
+    color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.discription>p{
+    color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 1rem;
+}
+.searching{
+    /* Frame 1 */
+/* border: 2px solid red; */
+width: 55rem;
+height: 2rem;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+padding: 2rem;
+margin-top: 2rem;
+border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.3);
+
+
+}
+.searching>input{
+    /* Rectangle 3 */
+
+width: 174px;
+height: 52px;
+bottom: -16px;
+border-radius: 8px;
+border: none;
+color: rgba(19, 19, 24, 0.5);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+
+background: rgb(255, 255, 255);
+}
+/* place holder styles */
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 11; 
+    
+}
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: rgb(255, 84, 0);
+}
+/* end */
+.searching>select{
+    /* Rectangle 3 */
+
+width: 174px;
+height: 52px;
+border-radius: 10px;
+color: rgba(19, 19, 24, 0.5);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn-prymary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+border: none;
+width: 174px;
+height: 52px;
+border-radius: 8px;
+background: rgb(255, 84, 0);
+bottom: -16px;
+}
+/* Mountain-section styles */
+.mountain{
+    width: 90%;
+    margin: 5.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40rem;
+    /* border: 2px solid red; */
+}
+
+.notes-part>div{
+    display: flex;
+    margin-left:10rem ;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.8rem;
+    
+}
+.notes-part>div>h3{
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+.notes-part>div>p{
+    color: rgba(19, 19, 24, 0.7);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 0.8rem;
+}
+.notes-part>div>ul{
+    margin-left: 2rem;
+}
+.notes-part>div>ul>li{
+    color: rgba(19, 19, 24, 0.7);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+#ex{
+    color: rgb(90, 90, 93);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: -1.5rem;
+}
+.btn-readmore{
+
+width: 174px;
+height: 52px;
+border-radius: 8px;
+color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+margin-left: -2rem;
+
+background: rgb(255, 84, 0);
+}
+/* choose destination part */
+.choose-destination{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: 5.5rem;
+    margin-left: 22rem;
+
+}
+.Choose-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Choose-info>h3{
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+.Choose-info>p{
+    color: rgba(19, 19, 24, 0.7);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 10px;
+}
+.pic-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center; */
+    gap: -10rem;
+    margin-top: 50px;
+
+}
+.Maldive>img{
+    position: relative;
+}
+.Maldive>h4{
+    position: relative;
+  
+    top: -50%;
+    bottom: 50%;
+    right: 50%;
+    left: 35%;
+   
+    color: rgb(255, 255, 255);
+
+font-size: 34px;
+font-weight: 800;
+   
+}
+.Indonesia>img{
+    position: relative;
+}
+.Indonesia>h4{
+    position: relative;
+  
+    top: -50%;
+    bottom: 50%;
+    right: 50%;
+    left: 35%;
+    color: rgb(255, 255, 255);
+
+font-size: 34px;
+font-weight: 800;
+   
+}
+.pic-2{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 0.62fr;
+
+}
+.Srilanka>img{
+    position: relative;
+}
+.Srilanka>h4{
+    position: relative;
+  
+    top: -50%;
+    bottom: 50%;
+    right: 50%;
+    left: 28%;
+   
+    color: rgb(255, 255, 255);
+
+font-size: 34px;
+font-weight: 800;
+   
+}
+.North-America>img{
+    position: relative;
+}
+.North-America>h4{
+    position: relative;
+  
+    top: -50%;
+    bottom: 50%;
+    right: 50%;
+    left: 25%;
+   
+    color: rgb(255, 255, 255);
+
+font-size: 34px;
+font-weight: 800;
+   
+}
+.Kashmir>img{
+    position: relative;
+}
+.Kashmir>h4{
+    position: relative;
+  
+    top: -50%;
+    bottom: 50%;
+    right: 50%;
+    left: 25%;
+   
+    color: rgb(255, 255, 255);
+
+font-size: 34px;
+font-weight: 800;
+   
+}
+.pic-3{
+    display: grid;
+    grid-template-columns: 1fr 1.39fr;
+
+}
+
+.Bangladesh>img{
+    position: relative;
+}
+.Bangladesh>h4{
+    position: relative;
+  
+    top: -50%;
+    bottom: 50%;
+    right: 50%;
+    left: 26%;
+   
+    color: rgb(255, 255, 255);
+
+font-size: 34px;
+font-weight: 800;
+   
+}
+
+.Bandarban>img{
+    position: relative;
+}
+.Bandarban>h4{
+    position: relative;
+  
+    top: -50%;
+    bottom: 50%;
+    right: 50%;
+    left: 35%;
+   
+    color: rgb(255, 255, 255);
+
+font-size: 34px;
+font-weight: 800;
+   
+}
